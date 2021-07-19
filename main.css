@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:400,500,700");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(145, 145, 145, 0.068), rgb(26, 26, 26)),
+    url("main/Hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Poppins, sans-serif;
+}
+
+.header {
+  height: 20vh;
+  /* background-color: rgb(69, 200, 240); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.Avatar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  /* background-color: burlywood; */
+}
+
+.Logo {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.myself {
+  font-size: 30px;
+  color: #fff;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  /* background-color: rgb(116, 87, 148); */
+}
+
+.navBar a {
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 25px;
+  color: rgb(144, 252, 4);
+}
+
+.navBar a:hover {
+  color: white;
+  /* color: #adadad; */
+}
+
+.selfIntro {
+  font-size: 65px;
+  color: rgb(0, 214, 70);
+  margin-top: 100px;
+}
+
+.name {
+  /* color: rgb(0, 214, 70); */
+  font-size: 70px;
+  color: #fff;
+}
